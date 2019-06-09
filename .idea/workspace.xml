@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/LinkedListProblems/Test123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/LinkedListProblems/test12345.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/geeksforgeeks/FirstRepeating.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/geeksforgeeks/GFG.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/geeksforgeeks/NutsBolts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/geeksforgeeks/StockProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/geeksforgeeks/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/geeksforgeeks/TinyUrl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/Counter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/MyFunInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/OptionalDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/Practice2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/PracticeDay1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java8/RequiredNonNullDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/puzzles/NoOfSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/puzzles/SortArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/ProducerConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/ThreadOnCriticalSection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/Automation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/Automation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automation/resources/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Automation/resources/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid1239.log" beforeDir="false" afterPath="$PROJECT_DIR$/hs_err_pid1239.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hs_err_pid32468.log" beforeDir="false" afterPath="$PROJECT_DIR$/hs_err_pid32468.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/production/Automation/META-INF/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/production/Automation/META-INF/plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MusicShop/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicShop/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MusicShop/GuitarSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicShop/GuitarSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MusicShop/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicShop/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MusicShop/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicShop/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MusicShop/MandolinSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicShop/MandolinSpec.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MusicShop/Specification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicShop/Specification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MusicShop/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicShop/Style.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MusicShop/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicShop/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MusicShop/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicShop/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MusicShop/Wood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MusicShop/Wood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/BinaryDp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/BinaryDp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/DP1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/DP1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/DP2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/DP2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/DynamicProgramming.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/DynamicProgramming.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/Fib12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/Fib12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/LinkedListProblems/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/LinkedListProblems/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/LinkedListProblems/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/LinkedListProblems/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/LinkedListProblems/Test11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/LinkedListProblems/Test11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/CallCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/CallCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/ForEach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/ForEach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/MaxDiff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/MaxDiff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/RecurTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/RecurTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/RunnableClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/RunnableClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/SegmentTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/SegmentTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/Square.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/StudentOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/StudentOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/Test123.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/TestNullable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/TestNullable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/Tracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MaxDiffNode/Tracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MerchantGuide/MaterialValueCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MerchantGuide/MaterialValueCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/MerchantGuide/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/MerchantGuide/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/BasicSalesTaxRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/BasicSalesTaxRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/ImportDutyTaxRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/ImportDutyTaxRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/ItemCategoryMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/ItemCategoryMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/ReceiptDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/ReceiptDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/Rules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/Rules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/SalesTax/test123.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/ScheculeManagement/Session.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/ScheculeManagement/Session.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/ScheculeManagement/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/ScheculeManagement/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/ScheculeManagement/Time.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/ScheculeManagement/Time.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/ScheculeManagement/Tracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/ScheculeManagement/Tracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/ScheculeManagement/TrackerManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/ScheculeManagement/TrackerManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/Tt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/Tt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/flatten/AdjacencyMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/flatten/AdjacencyMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/flatten/ESMessageContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/flatten/ESMessageContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/flatten/EvenDistanceNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/flatten/EvenDistanceNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/flatten/FlattenLinkLiest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/flatten/FlattenLinkLiest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/flatten/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/flatten/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/flatten/ReverseNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/flatten/ReverseNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/flatten/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/flatten/Test123.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/AlienDictonary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/AlienDictonary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/CheckBST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/CheckBST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/DiameterTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/DiameterTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/EdgeViewTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/EdgeViewTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/Graph_GFG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/Graph_GFG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/InterruptibleCharSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/InterruptibleCharSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/RegexMatcherThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/RegexMatcherThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/Test123.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/TopologicalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/TopologicalOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/Tt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/Tt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/VerticalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/VerticalOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/WheatherStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/WheatherStation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/WordMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/WordMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/WrapperTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/WrapperTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/pojo/gfg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/pojo/gfg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/rotttenorange/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/rotttenorange/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/rotttenorange/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/rotttenorange/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/rotttenorange/PoisousPesiticide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/rotttenorange/PoisousPesiticide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/rotttenorange/StackNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/rotttenorange/StackNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/rotttenorange/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/rotttenorange/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Abcd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Abcd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/ButtomView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/ButtomView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/CategoryResponseEntry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/CategoryResponseEntry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/ChainProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/ChainProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/EditDistance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/EditDistance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/EnumPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/EnumPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/KListMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/KListMerge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/LongestSubq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/LongestSubq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/MergeKList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/MergeKList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/PatternExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/PatternExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/PrintTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/PrintTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/RegexMatchInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/RegexMatchInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/RelativeOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/RelativeOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Schedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Schedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/SubStringDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/SubStringDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Temp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test1111.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test1111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/TestJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/TestJson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/TopViewTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/TopViewTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/TopologicalSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/TopologicalSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Track.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Track.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/TrackTimingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/TrackTimingManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/TrainOverlapProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/TrainOverlapProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/TrainSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/TrainSchedule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/TrainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/TrainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Tree1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Tree1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/test123.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/testt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/testt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dogdoor/DogDoor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dogdoor/DogDoor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dogdoor/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dogdoor/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/greeting/Greeter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greeting/Greeter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/greeting/Greeting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greeting/Greeting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/greeting/Greeting1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greeting/Greeting1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/greeting/GreetingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greeting/GreetingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/greeting/PerformFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greeting/PerformFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/greeting/Stock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/greeting/Stock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/monoploy/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monoploy/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/monoploy/BoardSquareBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monoploy/BoardSquareBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/monoploy/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monoploy/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/monoploy/HotelCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monoploy/HotelCell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/monoploy/MonopolyGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monoploy/MonopolyGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/monoploy/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monoploy/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/monoploy/Player1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monoploy/Player1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/monoploy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monoploy/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/monoploy/test12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/monoploy/test12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/puzzles/TourchAndBridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/puzzles/TourchAndBridge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/practice/MutliThreading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/practice/MutliThreading.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Fib1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fib1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Fibonaci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Fibonaci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GFGtEST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GFGtEST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MusicShop/GuitarSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MusicShop/GuitarSpec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MusicShop/MandolinSpec.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MusicShop/MandolinSpec.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geeksforgeeks/Test1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geeksforgeeks/BinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geeksforgeeks/FirstRepeating.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geeksforgeeks/TinyUrl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="95" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geeksforgeeks/NutsBolts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geeksforgeeks/GFG.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/geeksforgeeks/StockProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/utils/Abcd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>System.out.</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/practice/utils/Abcd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/geeksforgeeks/FirstRepeating.java" />
+        <option value="$PROJECT_DIR$/src/main/java/geeksforgeeks/TinuUrl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/geeksforgeeks/TinyUrl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/geeksforgeeks/NutsBolts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/geeksforgeeks/GFG.java" />
+        <option value="$PROJECT_DIR$/src/main/java/geeksforgeeks/StockProblem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/geeksforgeeks/Test1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/geeksforgeeks/ValidBST.java" />
+        <option value="$PROJECT_DIR$/src/main/java/geeksforgeeks/BinaryTree.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="635" />
+    <option name="y" value="479" />
+    <option name="width" value="1400" />
+    <option name="height" value="961" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="myCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="praticeProblems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="praticeProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="praticeProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="praticeProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="praticeProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="geeksforgeeks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="praticeProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="geeksforgeeks" type="462c0819:PsiDirectoryNode" />
+              <item name="BinaryTree.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="myCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="praticeProblems" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.BinaryTree">
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geeksforgeeks.BinaryTree" />
+      <module name="myCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="geeksforgeeks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GFG" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geeksforgeeks.GFG" />
+      <module name="myCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="geeksforgeeks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NutsBolts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geeksforgeeks.NutsBolts" />
+      <module name="myCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="geeksforgeeks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StockProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geeksforgeeks.StockProblem" />
+      <module name="myCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="geeksforgeeks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="geeksforgeeks.Test1" />
+      <module name="myCode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="geeksforgeeks.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BinaryTree" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.StockProblem" />
+        <item itemvalue="Application.GFG" />
+        <item itemvalue="Application.NutsBolts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="" />
+      <created>1559794755835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1559794755835</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="89" y="-6" width="2471" height="1446" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25861353" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2788906" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39984593" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32973805" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/geeksforgeeks/GFG.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/geeksforgeeks/FirstRepeating.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geeksforgeeks/TinyUrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="95" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geeksforgeeks/NutsBolts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geeksforgeeks/GFG.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geeksforgeeks/StockProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/practice/utils/Abcd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geeksforgeeks/ValidBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geeksforgeeks/Test1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/geeksforgeeks/BinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

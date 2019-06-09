@@ -8,7 +8,10 @@ public class Greeter
     public static void main( String arg[] )
     {
         Greeter greeter = new Greeter();
-        greeter.greet( () -> {
+        Demo d = new Demo();
+
+        greeter.greet( ( x) -> {
+
             System.out.println( "Hello in greeting" );
             return "Hello from greeting ";
         } );
@@ -26,8 +29,11 @@ public class Greeter
 
     public void greet( Greeting greeting )
     {
-        System.out.println( greeting.perform() );
+        System.out.println( greeting.perform(1) );
 
     }
 
 }
+class Demo{}
+
+

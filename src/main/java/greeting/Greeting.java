@@ -3,7 +3,7 @@ package greeting;
 
 public interface Greeting
 {
-    public String perform();
+    public String perform(int x);
 
 
 }
