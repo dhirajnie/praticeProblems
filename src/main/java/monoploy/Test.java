@@ -3,7 +3,7 @@
 //import java.util.List;
 //
 //
-//public class Test
+//public class ParkingSpotAlgo
 //{
 //    public static void main(String args[]){
 //        List<Player> playingPlayers = new
