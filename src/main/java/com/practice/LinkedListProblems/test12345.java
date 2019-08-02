@@ -7,24 +7,26 @@ import java.sql.Timestamp;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.AbstractCollection;
-import java.util.ArrayList;
-import java.util.Date;
+import java.util.*;
 
 
 public class test12345
 {
     public static void main( String args[] ) throws ParseException
     {
-        AbstractCollection<Object> abs= new ArrayList();
-        abs.add(1);
-        abs.add( 3 );
-        System.out.println(abs );
+
+        List<String > list= new ArrayList<>();
+        List<String> newList = Collections.unmodifiableList(list);
+        newList.add("as");
+        System.out.println(newList);
+
+        List<String> newList1 = new ArrayList<>();
+        newList1.add("ass");
+        newList1.add("assd");
+        newList1.add("asse");
 
 
 
-        {
-        }
     }
 
 }

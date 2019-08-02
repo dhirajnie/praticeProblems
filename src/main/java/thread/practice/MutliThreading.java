@@ -1,5 +1,6 @@
 package thread.practice;
 
+import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -17,7 +18,6 @@ public class MutliThreading
     {
 
         System.out.println( "Thread completed" + Thread.currentThread().getName() );
-
 
 
         Future<Integer> future = executor.submit( () -> {
@@ -50,10 +50,30 @@ public class MutliThreading
 
         } );
 
+
+
+
         //BLOCKING CALL
         int result = future.get()+future1.get();
+
+
         System.out.println(result);
 
         System.out.println( "Thread complted " );
+        Callable c= new CallA();
+
+
+
     }
 }
+class CallA implements Callable
+{
+
+
+    @Override
+    public String call() throws Exception
+    {
+        return "Hello";
+    }
+}
+

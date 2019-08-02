@@ -14,6 +14,7 @@ public class Test123
 {
 
     static Queue<Integer> minHeapQueue = new PriorityQueue<>();
+
     static Queue<Integer> maxHeapQueue = new PriorityQueue<>( Collections.reverseOrder() );
 
 

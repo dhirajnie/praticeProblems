@@ -3,11 +3,13 @@ package geeksforgeeks;
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-
+import java.util.*;
+import java.lang.*;
+import java.io.*;
 class GFG
 {
 
-    static void  printTable(int table[][],int n,int m){
+    static void  printTable(long table[][],int n,int m){
 
         for(int i=0;i<=m;i++){
             for(int j =0;j<n;j++){
@@ -18,7 +20,7 @@ class GFG
 
     }
 
-    static int min(int a,int b){
+    static long min(long a,long b){
         if(a>b)
             return b;
         else
@@ -31,17 +33,20 @@ class GFG
         while(test!=0){
 
             --test;
-            int table[][]= new int[1000][1000];
+
 
             int required_sum=sc.nextInt();
+
             int noOfCoins = sc.nextInt();
+
+            long table[][]= new long[noOfCoins+1][required_sum+1];
 
             int coins[]=new int[noOfCoins];
 
             for(int i =0;i<noOfCoins;i++){
                 coins[i]=sc.nextInt();
             }
-
+            Arrays.sort( coins );
 
             for(int j=0;j<coins.length;j++){
                 table[j][0]=0;
@@ -49,7 +54,7 @@ class GFG
             }
             for(int i=1;i<=required_sum;i++) {
                 if ( i % coins[0] == 0 ) {
-                    table[0][i] = required_sum / coins[0];
+                    table[0][i] = i / coins[0];
                 } else {
                     table[0][i] = Integer.MAX_VALUE;
                 }
@@ -68,10 +73,8 @@ class GFG
                     }
                 }
             }
-            System.out.println("Optimim"+table[coins.length-1][required_sum]);
-             printTable(table,required_sum+1,coins.length);
-
-
+            System.out.println(table[coins.length-1][required_sum]);
+           //  printTable(table,required_sum+1,coins.length);
         }
     }
 }
