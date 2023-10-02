@@ -9,22 +9,22 @@ public class SortTwoArray {
 
         int i = 2;
         int j = b.length-1;
-        int n = a.length-1;
+        int n2 = a.length-1;
 
         while(i>=0 && j>= 0){
             if(a[i]> b[j]){
-                a[n]=a[i];
-                --n;
+                a[n2]=a[i];
+                --n2;
                 --i;
                 System.out.println("Moved first");
             }
             else{
-                a[n]=b[j];
-                --n;
+                a[n2]=b[j];
+                --n2;
                 --j;
                 System.out.println("Moved Second");
             }
-            System.out.println("i"+i+"j"+j+"n"+n);
+            System.out.println("i"+i+"j"+j+"n"+n2);
         }
 
         if(j>=0){
