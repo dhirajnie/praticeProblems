@@ -9,14 +9,16 @@ public class LoggerImpl implements Logger {
 
     LoggerImpl(LoggerSvc loggerSvc){
         this.loggerSvc = loggerSvc;
-
     }
 
     @Override
     public void info(String logStr) {
-
+        try {
+            this.loggerSvc.addLog(logStr, processId);
+        } catch (Exception e) {
+            System.out.println(e);
+        }
     }
-
     @Override
     public void error(String logStr) {
 
