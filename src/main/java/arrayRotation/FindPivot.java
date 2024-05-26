@@ -11,6 +11,9 @@ public class FindPivot
         System.out.println(findPivot(inp,0,inp.length-1));
 
 
+
+
+
     }
 
 
