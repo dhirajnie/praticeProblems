@@ -1,4 +1,4 @@
-package BloomFilter;
+package hashings;
 
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;

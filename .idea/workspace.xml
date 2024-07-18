@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="&#10;Java Bitset and BloomFilter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BloomFilter/BloomFilter1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Disucssion.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UUIDGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashings/ConsistentHashing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hashings/Temp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BloomFilter/BloomFilter1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hashings/BloomFilter1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" afterDir="false" />
     </list>
@@ -92,13 +95,13 @@
       <recent name="thread.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BloomFilter1">
-    <configuration name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayRotation.BST" />
+  <component name="RunManager" selected="Application.UUIDGenerator">
+    <configuration name="BloomFilter1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashings.BloomFilter1" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayRotation.*" />
+          <option name="PATTERN" value="hashings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BloomFilter1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BloomFilter.BloomFilter1" />
+    <configuration name="ConsistentHashing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashings.ConsistentHashing" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BloomFilter.*" />
+          <option name="PATTERN" value="hashings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayRotation.MaxNumber" />
+    <configuration name="Temp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hashings.Temp" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayRotation.*" />
+          <option name="PATTERN" value="hashings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,26 +148,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Logger.Test1" />
+    <configuration name="UUIDGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UUIDGenerator" />
       <module name="praticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Logger.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UUIDGenerator" />
+        <item itemvalue="Application.ConsistentHashing" />
+        <item itemvalue="Application.Temp" />
         <item itemvalue="Application.BloomFilter1" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.MaxNumber" />
-        <item itemvalue="Application.BST" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +247,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720841478267</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="&#10;Java Bitset and BloomFilter">
+      <created>1720946570196</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720946570196</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -439,24 +443,49 @@
           <option name="timeStamp" value="98" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/BloomFilter/BloomFilter1.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/hashings/BloomFilter1.java</url>
           <line>27</line>
           <option name="timeStamp" value="99" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/BloomFilter/BloomFilter1.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/hashings/BloomFilter1.java</url>
           <line>58</line>
           <option name="timeStamp" value="100" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/BloomFilter/BloomFilter1.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/hashings/BloomFilter1.java</url>
           <line>55</line>
           <option name="timeStamp" value="101" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/BloomFilter/BloomFilter1.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/hashings/BloomFilter1.java</url>
           <line>50</line>
           <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hashings/ConsistentHashing.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hashings/ConsistentHashing.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hashings/Temp.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="108" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hashings/ConsistentHashing.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="109" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/hashings/ConsistentHashing.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="111" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/parkingsystem/ParkingSpotAlgo.java</url>
