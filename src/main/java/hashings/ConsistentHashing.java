@@ -19,7 +19,10 @@ public class ConsistentHashing {
         for (int i = 0; i < numberOfReplicas; i++) {
             long hash = generateHash(server + i);
             ring.put(hash, server);
+
         }
+
+        System.out.println();
     }
 
     public void removeServer(String server) {
