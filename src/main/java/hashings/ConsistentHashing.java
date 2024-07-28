@@ -36,6 +36,7 @@ public class ConsistentHashing {
         if (ring.isEmpty()) {
             return null;
         }
+
         long hash = generateHash(key);
         if (!ring.containsKey(hash)) {
             SortedMap<Long, String> tailMap = ring.tailMap(hash);
