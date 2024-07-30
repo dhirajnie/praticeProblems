@@ -34,9 +34,10 @@ public class ConsistentHashing {
 
     public String getServer(String key) {
         if (ring.isEmpty()) {
-
             return null;
         }
+
+
 
         long hash = generateHash(key);
         if (!ring.containsKey(hash)) {
