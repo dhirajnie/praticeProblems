@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="&#10;Java Bitset and BloomFilter">
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/MajorityElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/RemoveDup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/Stock2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/Stocks1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RemoveInPlace.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RemoveInPlace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" afterDir="false" />
     </list>
@@ -92,13 +95,13 @@
       <recent name="thread.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveInPlace">
-    <configuration name="ConsistentHashing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hashings.ConsistentHashing" />
+  <component name="RunManager" selected="Application.Stock2">
+    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.practice.MajorityElement" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hashings.*" />
+          <option name="PATTERN" value="thread.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,9 +109,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Merge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Merge" />
+    <configuration name="RemoveDup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.practice.RemoveDup" />
       <module name="praticeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,27 +129,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamChecker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StreamChecker" />
+    <configuration name="Stock2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.practice.Stock2" />
       <module name="praticeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UUIDGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UUIDGenerator" />
+    <configuration name="Stocks1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.practice.Stocks1" />
       <module name="praticeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Stock2" />
+        <item itemvalue="Application.Stocks1" />
+        <item itemvalue="Application.MajorityElement" />
+        <item itemvalue="Application.RemoveDup" />
         <item itemvalue="Application.RemoveInPlace" />
-        <item itemvalue="Application.Merge" />
-        <item itemvalue="Application.StreamChecker" />
-        <item itemvalue="Application.UUIDGenerator" />
-        <item itemvalue="Application.ConsistentHashing" />
       </list>
     </recent_temporary>
   </component>
@@ -303,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722534816026</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="&#10;Java Bitset and BloomFilter">
+      <created>1722601313605</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1722601313605</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -555,6 +583,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/RemoveInPlace.java</url>
           <line>5</line>
           <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoveInPlace.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/RemoveDup.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/MajorityElement.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/MajorityElement.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/Stock2.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="126" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/parkingsystem/ParkingSpotAlgo.java</url>
