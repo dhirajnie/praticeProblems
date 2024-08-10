@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="&#10;Java Bitset and BloomFilter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RotateMatrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/MinSizeSubArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/OddEventhread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/Subsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/CompletableFutureExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" afterDir="false" />
@@ -98,7 +95,20 @@
       <recent name="thread.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.OddEventhread">
+  <component name="RunManager" selected="Application.CompletableFutureDemo">
+    <configuration name="CompletableFutureDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.practice.CompletableFutureDemo" />
+      <module name="praticeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MinSizeSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.practice.MinSizeSubArray" />
       <module name="praticeProblems" />
@@ -114,19 +124,6 @@
     </configuration>
     <configuration name="OddEventhread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.practice.OddEventhread" />
-      <module name="praticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RomanNumb" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.practice.RomanNumb" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -160,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompletableFutureDemo" />
         <item itemvalue="Application.OddEventhread" />
         <item itemvalue="Application.MinSizeSubArray" />
         <item itemvalue="Application.Subsequence" />
         <item itemvalue="Application.RotateMatrix" />
-        <item itemvalue="Application.RomanNumb" />
       </list>
     </recent_temporary>
   </component>
@@ -362,7 +359,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722879396066</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="&#10;Java Bitset and BloomFilter">
+      <created>1723045568205</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1723045568205</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
