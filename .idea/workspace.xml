@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="&#10;Java Bitset and BloomFilter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/CompletableFutureExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/KPair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/KthLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/MaxSumSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/MedianOfTwoSortedArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/MinimumInRotated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/PartArr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/UniquePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/WordBreak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/practice/Test43242.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/practice/Test43242.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -95,9 +103,9 @@
       <recent name="thread.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompletableFutureDemo">
-    <configuration name="CompletableFutureDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.practice.CompletableFutureDemo" />
+  <component name="RunManager" selected="Application.PartArr">
+    <configuration name="KPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.practice.KPair" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinSizeSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.practice.MinSizeSubArray" />
+    <configuration name="MaxSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.practice.MaxSumSubArray" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +130,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddEventhread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.practice.OddEventhread" />
+    <configuration name="MedianOfTwoSortedArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.practice.MedianOfTwoSortedArr" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -135,15 +143,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RotateMatrix" />
+    <configuration name="MinimumInRotated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.practice.MinimumInRotated" />
       <module name="praticeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.practice.Subsequence" />
+    <configuration name="PartArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.practice.PartArr" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -157,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CompletableFutureDemo" />
-        <item itemvalue="Application.OddEventhread" />
-        <item itemvalue="Application.MinSizeSubArray" />
-        <item itemvalue="Application.Subsequence" />
-        <item itemvalue="Application.RotateMatrix" />
+        <item itemvalue="Application.PartArr" />
+        <item itemvalue="Application.MaxSumSubArray" />
+        <item itemvalue="Application.KPair" />
+        <item itemvalue="Application.MinimumInRotated" />
+        <item itemvalue="Application.MedianOfTwoSortedArr" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723045568205</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="&#10;Java Bitset and BloomFilter">
+      <created>1723272364793</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1723272364793</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -698,6 +719,46 @@
           <url>file://$PROJECT_DIR$/src/main/java/thread/practice/MinSizeSubArray.java</url>
           <line>13</line>
           <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/WordBreak.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/WordBreak.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/MedianOfTwoSortedArr.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/MedianOfTwoSortedArr.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/MinimumInRotated.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/MaxSumSubArray.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/PartArr.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/PartArr.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="160" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/parkingsystem/ParkingSpotAlgo.java</url>
