@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="&#10;Java Bitset and BloomFilter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/LongestSubString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/EmptyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/GenerateParanthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/IntegerToRoman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/LongestPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/MostWater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/NextGreater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/ReverseInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/SimplyPsth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" afterDir="false" />
@@ -95,9 +102,9 @@
       <recent name="thread.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LongestSubString">
-    <configuration name="KPair" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.practice.KPair" />
+  <component name="RunManager" selected="Application.SimplyPsth">
+    <configuration name="EmptyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.practice.EmptyStack" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -109,8 +116,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.practice.LongestSubString" />
+    <configuration name="GenerateParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.practice.GenerateParanthesis" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -122,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSumSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.practice.MaxSumSubArray" />
+    <configuration name="IntegerToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.practice.IntegerToRoman" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumInRotated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.practice.MinimumInRotated" />
+    <configuration name="NextGreater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.practice.NextGreater" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -148,8 +155,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartArr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.practice.PartArr" />
+    <configuration name="SimplyPsth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.practice.SimplyPsth" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -163,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LongestSubString" />
-        <item itemvalue="Application.PartArr" />
-        <item itemvalue="Application.MaxSumSubArray" />
-        <item itemvalue="Application.KPair" />
-        <item itemvalue="Application.MinimumInRotated" />
+        <item itemvalue="Application.SimplyPsth" />
+        <item itemvalue="Application.EmptyStack" />
+        <item itemvalue="Application.NextGreater" />
+        <item itemvalue="Application.GenerateParanthesis" />
+        <item itemvalue="Application.IntegerToRoman" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +393,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723438253965</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="&#10;Java Bitset and BloomFilter">
+      <created>1723470727240</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1723470727240</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -763,6 +777,51 @@
           <url>file://$PROJECT_DIR$/src/main/java/thread/practice/LongestSubString.java</url>
           <line>13</line>
           <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/LongestPalindrome.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/ReverseInteger.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/IntegerToRoman.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/IntegerToRoman.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/GenerateParanthesis.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/NextGreater.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/EmptyStack.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/EmptyStack.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/SimplyPsth.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="175" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/parkingsystem/ParkingSpotAlgo.java</url>
