@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="&#10;Java Bitset and BloomFilter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/EmptyStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/GenerateParanthesis.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/IntegerToRoman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/LongestPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/MostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/NextGreater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/ReverseInteger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/SimplyPsth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/CopyRandomPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/MinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/ThreeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" afterDir="false" />
@@ -102,7 +97,7 @@
       <recent name="thread.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SimplyPsth">
+  <component name="RunManager" selected="Application.ThreeSum">
     <configuration name="EmptyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.practice.EmptyStack" />
       <module name="praticeProblems" />
@@ -118,19 +113,6 @@
     </configuration>
     <configuration name="GenerateParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.practice.GenerateParanthesis" />
-      <module name="praticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thread.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntegerToRoman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.practice.IntegerToRoman" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -168,13 +150,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.practice.ThreeSum" />
+      <module name="praticeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thread.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.SimplyPsth" />
         <item itemvalue="Application.EmptyStack" />
         <item itemvalue="Application.NextGreater" />
         <item itemvalue="Application.GenerateParanthesis" />
-        <item itemvalue="Application.IntegerToRoman" />
       </list>
     </recent_temporary>
   </component>
@@ -400,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723470727240</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="&#10;Java Bitset and BloomFilter">
+      <created>1723807990531</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1723807990531</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -822,6 +824,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/thread/practice/SimplyPsth.java</url>
           <line>27</line>
           <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/ThreeSum.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="176" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/parkingsystem/ParkingSpotAlgo.java</url>
