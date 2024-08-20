@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="&#10;Java Bitset and BloomFilter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/CopyRandomPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/ThreeSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/CombinationSum2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/NGE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/RLE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/SortArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/thread/practice/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/thread/practice/ThreeSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +92,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -97,13 +100,13 @@
       <recent name="thread.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ThreeSum">
-    <configuration name="EmptyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.practice.EmptyStack" />
+  <component name="RunManager" selected="Application.NGE">
+    <configuration name="CombinationSum2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.utils.CombinationSum2" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.practice.*" />
+          <option name="PATTERN" value="com.practice.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenerateParanthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.practice.GenerateParanthesis" />
+    <configuration name="NGE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.utils.NGE" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.practice.*" />
+          <option name="PATTERN" value="com.practice.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NextGreater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.practice.NextGreater" />
+    <configuration name="RLE" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.utils.RLE" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.practice.*" />
+          <option name="PATTERN" value="com.practice.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimplyPsth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.practice.SimplyPsth" />
+    <configuration name="SortArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.practice.utils.SortArray" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.practice.*" />
+          <option name="PATTERN" value="com.practice.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NGE" />
+        <item itemvalue="Application.SortArray" />
+        <item itemvalue="Application.CombinationSum2" />
+        <item itemvalue="Application.RLE" />
         <item itemvalue="Application.ThreeSum" />
-        <item itemvalue="Application.SimplyPsth" />
-        <item itemvalue="Application.EmptyStack" />
-        <item itemvalue="Application.NextGreater" />
-        <item itemvalue="Application.GenerateParanthesis" />
       </list>
     </recent_temporary>
   </component>
@@ -402,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1723807990531</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="&#10;Java Bitset and BloomFilter">
+      <created>1723966708280</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1723966708280</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -827,8 +837,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/thread/practice/ThreeSum.java</url>
-          <line>15</line>
+          <line>18</line>
           <option name="timeStamp" value="176" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/thread/practice/ThreeSum.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/utils/RLE.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/utils/CombinationSum2.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="187" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/utils/CombinationSum2.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/practice/utils/SortArray.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="191" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/parkingsystem/ParkingSpotAlgo.java</url>
