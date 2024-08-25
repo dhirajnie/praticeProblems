@@ -5,23 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="&#10;Java Bitset and BloomFilter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/Checkbox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/MacApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/MacApplicationFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/MacButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/UIApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/WindowsButton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/WindowsUIApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLD/decorator/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLD/decorator/Condiments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLD/decorator/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLD/decorator/Espresso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLD/decorator/HouseBlend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/LLD/decorator/Mocha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/thread/practice/Combinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design_patterns/factory/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design_patterns/factory/PizzaStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design_patterns/factory/abstractFactory/Cheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design_patterns/factory/abstractFactory/IngridientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design_patterns/factory/abstractFactory/NyCheese.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design_patterns/factory/abstractFactory/NyIngridientFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design_patterns/factory/abstractFactory/NyStyleSouce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design_patterns/factory/abstractFactory/Souce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design_patterns/factory/factories/ChicagoStylePizzaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design_patterns/factory/factories/NYStylePizzaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design_patterns/factory/factories/PizzaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design_patterns/factory/pizzatype/NyStyleCheesePizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/design_patterns/factory/pizzatype/Pizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/abstractFactory/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/abstractFactory/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/Checkbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/abstractFactory/Checkbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/MacApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/abstractFactory/MacApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/MacApplicationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/abstractFactory/MacApplicationFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/MacButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/abstractFactory/MacButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/UIApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/abstractFactory/UIApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/WindowsButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/abstractFactory/WindowsButton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/abstractFactory/WindowsUIApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/abstractFactory/WindowsUIApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/decorator/Beverage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/decorator/Beverage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/decorator/Condiments.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/decorator/Condiments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/decorator/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/decorator/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/decorator/Espresso.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/decorator/Espresso.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/decorator/HouseBlend.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/decorator/HouseBlend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/decorator/Mocha.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/decorator/Mocha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/flightmanagement/AccountDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/flightmanagement/AccountDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/flightmanagement/AirlineManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/flightmanagement/AirlineManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/flightmanagement/BookingDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/flightmanagement/BookingDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/flightmanagement/BookingManagent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/flightmanagement/BookingManagent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/flightmanagement/BookingRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/flightmanagement/BookingRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/flightmanagement/Crew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/flightmanagement/Crew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/flightmanagement/Flight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/flightmanagement/Flight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/flightmanagement/Passanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/flightmanagement/Passanger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/flightmanagement/PaymentManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/flightmanagement/PaymentManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/flightmanagement/PriceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/flightmanagement/PriceCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/flightmanagement/Seat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/flightmanagement/Seat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LLD/flightmanagement/SeatAssigment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/design_patterns/flightmanagement/SeatAssigment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" afterDir="false" />
     </list>
@@ -111,13 +136,13 @@
       <recent name="thread.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
+  <component name="RunManager" selected="Application.design_patterns.factory.Demo">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LLD.abstractFactory.Application" />
+      <option name="MAIN_CLASS_NAME" value="design_patterns.abstractFactory.Application" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LLD.abstractFactory.*" />
+          <option name="PATTERN" value="design_patterns.abstractFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,11 +151,11 @@
       </method>
     </configuration>
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LLD.decorator.Demo" />
+      <option name="MAIN_CLASS_NAME" value="design_patterns.decorator.Demo" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="LLD.decorator.*" />
+          <option name="PATTERN" value="design_patterns.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,12 +189,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.utils.Solution" />
+    <configuration name="design_patterns.factory.Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="design_patterns.factory.Demo" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.utils.*" />
+          <option name="PATTERN" value="design_patterns.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.design_patterns.factory.Demo" />
         <item itemvalue="Application.Demo" />
         <item itemvalue="Application.Application" />
         <item itemvalue="Application.GenerateParanthesis" />
         <item itemvalue="Application.SlidingWindowAndPQ" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -437,7 +462,14 @@
       <option name="project" value="LOCAL" />
       <updated>1724346386312</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="&#10;Java Bitset and BloomFilter">
+      <created>1724576551517</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1724576551517</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -906,12 +938,12 @@
           <option name="timeStamp" value="196" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/LLD/decorator/Demo.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/design_patterns/decorator/Demo.java</url>
           <line>13</line>
           <option name="timeStamp" value="199" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/LLD/decorator/Demo.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/design_patterns/decorator/Demo.java</url>
           <line>11</line>
           <option name="timeStamp" value="200" />
         </line-breakpoint>
