@@ -11,4 +11,4 @@ with it
 check
 check
 neural network
-check check chrcj
+check linear algebra basic contine 10 april 2025
