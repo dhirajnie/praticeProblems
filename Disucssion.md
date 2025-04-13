@@ -12,3 +12,4 @@ check
 check
 neural network
 check linear algebra basic contine 10 april 2025
+matrix multiplication check 
