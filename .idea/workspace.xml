@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="&#10;Java Bitset and BloomFilter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrayRotation/DisappearedNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrayRotation/Shuffle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrayRotation/NGE1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" afterDir="false" />
@@ -100,7 +99,7 @@
       <recent name="thread.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DisappearedNumber">
+  <component name="RunManager" selected="Application.NGE1">
     <configuration name="DependencyResolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DependencyResolver" />
       <module name="praticeProblems" />
@@ -128,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeDownstream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.practice.utils.NodeDownstream" />
+    <configuration name="NGE1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayRotation.NGE1" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.practice.utils.*" />
+          <option name="PATTERN" value="arrayRotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NGE1" />
         <item itemvalue="Application.DisappearedNumber" />
         <item itemvalue="Application.Shuffle" />
         <item itemvalue="Application.MaxCons1" />
         <item itemvalue="Application.DependencyResolver" />
-        <item itemvalue="Application.NodeDownstream" />
       </list>
     </recent_temporary>
   </component>
@@ -470,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1766115638532</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="&#10;Java Bitset and BloomFilter">
+      <created>1766214322253</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1766214322253</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -962,6 +968,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/DisappearedNumber.java</url>
           <line>8</line>
           <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/NGE1.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="204" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/parkingsystem/ParkingSpotAlgo.java</url>
