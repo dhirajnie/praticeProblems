@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="&#10;Java Bitset and BloomFilter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrayRotation/NGE1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrayRotation/CountSmaller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrayRotation/NGE2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" afterDir="false" />
@@ -99,10 +100,16 @@
       <recent name="thread.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NGE1">
-    <configuration name="DependencyResolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DependencyResolver" />
+  <component name="RunManager" selected="Application.CountSmaller">
+    <configuration name="CountSmaller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayRotation.CountSmaller" />
       <module name="praticeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayRotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,15 +127,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxCons1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MaxCons1" />
+    <configuration name="NGE1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayRotation.NGE1" />
       <module name="praticeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayRotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NGE1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayRotation.NGE1" />
+    <configuration name="NGE2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayRotation.NGE2" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -155,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountSmaller" />
+        <item itemvalue="Application.NGE2" />
         <item itemvalue="Application.NGE1" />
         <item itemvalue="Application.DisappearedNumber" />
         <item itemvalue="Application.Shuffle" />
-        <item itemvalue="Application.MaxCons1" />
-        <item itemvalue="Application.DependencyResolver" />
       </list>
     </recent_temporary>
   </component>
@@ -476,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1766214322253</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="&#10;Java Bitset and BloomFilter">
+      <created>1766724085256</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1766724085256</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -973,6 +993,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/NGE1.java</url>
           <line>15</line>
           <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/NGE2.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/NGE2.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="206" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/CountSmaller.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="207" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/parkingsystem/ParkingSpotAlgo.java</url>
