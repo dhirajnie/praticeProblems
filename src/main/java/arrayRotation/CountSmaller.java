@@ -2,39 +2,36 @@ package arrayRotation;
 
 import com.practice.Utils;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class CountSmaller {
-  static   public int removeElement(int[] nums, int val) {
-        int i=0;
-        int j = nums.length-1;
-        while(i<=j){
-            while(i<nums.length && nums[i]!=val){
-                ++i;
-            }
-            while(j>0 && nums[j]==val){
-                --j;
-            }
-            if(i<j) {
-                int temp = nums[i];
-                nums[i] = nums[j];
-                nums[j] = temp;
-            }
-        }
-        System.out.println(i+" , "+j);
-        Utils.print(nums);
-        return j;
-    }
+    static public int removeElement(int[] nums) {
 
+        int write = -1;
+        int count = 0;
+        for (int i = 0; i < nums.length; i++) {
+            if (count < 1 || nums[write] != nums[i]) {
+                ++write;
+                nums[write] = nums[i];
+                if (write > 0 && nums[write] == nums[write - 1]) {
+                    ++count;
+                } else {
+                    count = 0;
+                }
+
+
+            }
+
+        }
+        return write;
+    }
 
 
     public static void main(String[] args) {
 
 
-        int inp[]=new int[]{0,1,2,2,3,0,4,2};
-        System.out.println(removeElement(inp,2));
+        int inp[] = new int[]{1,2};
+        System.out.println((removeElement(inp)));
+        Utils.print(inp);
     }
 }

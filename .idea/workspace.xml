@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="&#10;Java Bitset and BloomFilter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrayRotation/CountSmaller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrayRotation/NGE2.java" afterDir="false" />
+    <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="sss">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrayRotation/CountSmaller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayRotation/CountSmaller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" afterDir="false" />
     </list>
@@ -496,7 +495,14 @@
       <option name="project" value="LOCAL" />
       <updated>1766724085256</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="&#10;Java Bitset and BloomFilter">
+      <created>1766894790931</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1766894790931</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -519,7 +525,8 @@
     <MESSAGE value="&#10;kk" />
     <MESSAGE value="&#10;Check" />
     <MESSAGE value="&#10;Java Bitset and BloomFilter" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;Java Bitset and BloomFilter" />
+    <MESSAGE value="sss" />
+    <option name="LAST_COMMIT_MESSAGE" value="sss" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1006,8 +1013,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/CountSmaller.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="207" />
+          <line>9</line>
+          <option name="timeStamp" value="208" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/parkingsystem/ParkingSpotAlgo.java</url>
