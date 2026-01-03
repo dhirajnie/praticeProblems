@@ -26,12 +26,34 @@ public class CountSmaller {
         return write;
     }
 
+    static public int maxProfit(int[] prices) {
+     // buy and sell only once
+        int minPrice =Integer.MAX_VALUE;
+        int maxProfit =0;
+        for(int i=0;i<prices.length;i++){
+            minPrice = Integer.min(minPrice,prices[i]);
+            maxProfit=Integer.max(maxProfit,prices[i]-minPrice);
+        }
+        return maxProfit;
+    }
+
+   static public boolean canJump(int[] nums) {
+       int maxJump=0;
+        for(int i  =0;i<nums.length;i++){
+            if(i>maxJump){
+                return false;
+            }
+            if(i+nums[i]> maxJump){
+                maxJump=i+nums[i];
+            }
+        }
+        return true;
+    }
 
     public static void main(String[] args) {
 
-
-        int inp[] = new int[]{1,2};
-        System.out.println((removeElement(inp)));
+        int inp[] = new int[]{3, 1, 1, 0, 6, 4};
+        System.out.println(((canJump(inp))));
         Utils.print(inp);
     }
 }
