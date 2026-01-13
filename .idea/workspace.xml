@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="sss">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrayRotation/TextJustify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrayRotation/RandomizedSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayRotation/RandomizedSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arrayRotation/TextJustify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayRotation/TextJustify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" afterDir="false" />
     </list>
@@ -527,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1767847621915</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="sss">
+      <created>1768190931954</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1768190931954</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1063,8 +1068,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/TextJustify.java</url>
-          <line>32</line>
+          <line>49</line>
           <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/TextJustify.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="214" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/parkingsystem/ParkingSpotAlgo.java</url>

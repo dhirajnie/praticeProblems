@@ -30,13 +30,36 @@ public class TextJustify {
       lines.add(currentLine);
 
       System.out.println(lines);
-        return null;
 
+      List<String> result = new ArrayList<>();
+
+      for(List<String> line : lines) {
+          long  gap = maxWidth - line.stream().mapToLong(String::length).sum();
+          int uniformGap = line.size() > 1 ? (int)(gap / (line.size()-1)): (int) gap;
+
+          StringBuilder currentJustLine = new StringBuilder();
+          for(String word:line){
+              int fillSpace = Math.min((int)gap,uniformGap);
+              currentJustLine.append( fill(word,fillSpace));
+              gap -= uniformGap ;
+          }
+          result.add(currentJustLine.toString());
+          System.out.println(currentJustLine);
+      }
+        return result;
+    }
+    static String fill(String word,int spaceSize ){
+      StringBuilder spaces = new StringBuilder();
+      while (spaceSize>0){
+          spaces.append(" ");
+          --spaceSize;
+      }
+      return word+spaces.toString();
     }
 
 
     public static void main(String[] args) {
-      String inp[]= new String[]{"What","must","be","acknowledgment","shall","be","ads12212"};
-        System.out.println(fullJustify(inp,16));
+      String inp[]= new String[]{"Science","is","what","we","understand","well","enough","to","explain","to","a","computer.","Art","is","everything","else","we","do"};
+        System.out.println(fullJustify(inp,20));
     }
 }
