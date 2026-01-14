@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="sss">
+      <change afterPath="$PROJECT_DIR$/src/main/java/arrayRotation/TwoPointerNew.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrayRotation/TextJustify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arrayRotation/TextJustify.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" afterDir="false" />
     </list>
@@ -101,22 +101,9 @@
       <recent name="thread.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TextJustify">
+  <component name="RunManager" selected="Application.TwoPointerNew">
     <configuration name="CountSmaller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrayRotation.CountSmaller" />
-      <module name="praticeProblems" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrayRotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NGE1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayRotation.NGE1" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -167,13 +154,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoPointerNew" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayRotation.TwoPointerNew" />
+      <module name="praticeProblems" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="arrayRotation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoPointerNew" />
         <item itemvalue="Application.TextJustify" />
         <item itemvalue="Application.RandomizedSet" />
         <item itemvalue="Application.CountSmaller" />
         <item itemvalue="Application.NGE2" />
-        <item itemvalue="Application.NGE1" />
       </list>
     </recent_temporary>
   </component>
@@ -188,13 +188,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559794755835</updated>
-    </task>
-    <task id="LOCAL-00001" summary="ds">
-      <created>1695978782398</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1695978782398</updated>
     </task>
     <task id="LOCAL-00002" summary="Sort Two Array">
       <created>1696083304247</created>
@@ -532,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1768190931954</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="sss">
+      <created>1768279326635</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1768279326637</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
