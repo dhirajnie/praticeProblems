@@ -1,9 +1,6 @@
 package arrayRotation;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class TwoPointerNew {
     static public int minSubArrayLen(int target, int[] nums) {
@@ -62,13 +59,69 @@ public class TwoPointerNew {
     }
 
 
+  static   public boolean isValidSudoku(char[][] board) {
 
-    public static void main(String[] args) {
-        int inp[] = new int[]{1, 2, 3, 4, 5};
+        Map<String, Set<Character>> squareMap = new HashMap<>();
+        Map<String, Set<Character>> rowMap = new HashMap<>();
+        Map<String, Set<Character>> columnMap = new HashMap<>();
 
-        Set<List<Integer>> setOfList = new HashSet<>();
-        setOfList.add(new ArrayList<>());
-        System.out.println(lengthOfLongestSubstring("pwwkew"));
+        for (int i = 0; i < board.length; i++) {
+            for (int j = 0; j < board[0].length; j++) {
+                char ch = board[i][j];
+                if (ch!= '.') {
+                    String rowKey = i + "R" + j;
+                    String colKey = i + "C" + j;
+                    String sqaureKey = (i / 3) + "S" + (j / 3);
+
+                    Set<Character> squareSet = squareMap.getOrDefault(sqaureKey, new HashSet<>());
+                    if(containsDup(squareSet,ch)){
+                        return false;
+                    }
+                    squareMap.put(sqaureKey,squareSet);
+
+                    Set<Character> rowSet = rowMap.getOrDefault(rowKey, new HashSet<>());
+                    if(containsDup(rowSet,ch)){
+                        return false;
+                    }
+                    rowMap.put(rowKey,rowSet);
+
+                    Set<Character> colSet = columnMap.getOrDefault(colKey, new HashSet<>());
+                    if(containsDup(colSet,ch)){
+                        return false;
+                    }
+                    columnMap.put(colKey,colSet);
+
+                }
+            }
+        }
+        return true;
+    }
+
+    static   boolean containsDup(Set<Character> set, Character ch ){
+            if(set.contains(ch)){
+                return true;
+            }
+            set.add(ch);
+            return false;
+        }
+
+
+
+
+
+public static void main(String[] args) {
+      String input[][]= new String[][]{{"5","3",".",".","7",".",".",".","."}
+              ,{"6","5",".","1","9","5",".",".","."}
+              ,{".","9","8",".",".",".",".","6","."}
+              ,{"8",".",".",".","6",".",".",".","3"}
+              ,{"4",".",".","8",".","3",".",".","1"}
+              ,{"7",".",".",".","2",".",".",".","6"}
+              ,{".","6",".",".",".",".","2","8","."}
+              ,{".",".",".","4","1","9",".",".","5"}
+              ,{".",".",".",".","8",".",".","7","9"}};
+
+    System.out.println(isValidSudoku(input));
+
     }
 
 }

@@ -189,13 +189,6 @@
       <option name="presentableId" value="Default" />
       <updated>1559794755835</updated>
     </task>
-    <task id="LOCAL-00004" summary="&#10;kk">
-      <created>1698551684945</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1698551684945</updated>
-    </task>
     <task id="LOCAL-00005" summary="&#10;Check">
       <created>1704011472577</created>
       <option name="number" value="00005" />
@@ -532,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1768398719671</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="sss">
+      <created>1768667813380</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1768667813380</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1075,6 +1075,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/TextJustify.java</url>
           <line>36</line>
           <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/TwoPointerNew.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="218" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/parkingsystem/ParkingSpotAlgo.java</url>
