@@ -59,6 +59,9 @@ public class TwoPointerNew {
     }
 
 
+
+
+
   static   public boolean isValidSudoku(char[][] board) {
 
         Map<String, Set<Character>> squareMap = new HashMap<>();
@@ -105,22 +108,117 @@ public class TwoPointerNew {
             return false;
         }
 
+  static   public String minWindow(String s, String t) {
+       int iMin = 0;
+       int jMin =s.length();
+    for(int i =0;i<s.length();i++) {
+        int tindex = 0;
+        for (int j = i; j < s.length(); j++) {
+            if (s.charAt(j) == t.charAt(tindex)) {
+                ++tindex;
+            }
+            if (tindex == t.length() && (jMin-iMin)>(j-i)) {
+                System.out.println(tindex+" is equal and i:"+i+" "+j);
+                jMin= j;
+                iMin=i;
+                break;
+            }
+        }
+
+    }
+    return s.substring(iMin,jMin);
+    }
+
+
+   static public boolean canConstruct(String s, String t) {
+        Map<Integer,Integer> sCount = constructCountOfCount(s);
+       Map<Integer,Integer> tCount = constructCountOfCount(t);
+
+       for(Map.Entry<Integer,Integer> entry : sCount.entrySet()){
+           if(!tCount.containsKey(entry.getKey()) || tCount.get(entry.getKey())!=entry.getValue().intValue()){
+               return false;
+           }
+       }
+       return true;
+
+    }
+
+   static Map<Integer,Integer> constructCountOfCount(String inp){
+        Map<Character,Integer> charCount = new HashMap<>();
+        Map<Integer,Integer> sCounter = new HashMap<>();
+        for(char c: inp.toCharArray()){
+            charCount.put(c,charCount.getOrDefault(c,0)+1);
+        }
+
+        for(Integer count : charCount.values()){
+            sCounter.put(count,sCounter.getOrDefault(count,0)+1);
+        }
+        return sCounter;
+    }
+
+
+   static public boolean isIsomorphic(String s, String t) {
+
+
+        if(s.length()!=t.length()){
+            return false;
+        }
+        Map<Character,Character> charMapping = new HashMap<>();
+        Set<Character > usedStr = new HashSet<>();
+        for(int i = 0;i<s.length();i++){
+            if(charMapping.containsKey(s.charAt(i)) && charMapping.get(s.charAt(i))!=t.charAt(i)){
+                return false;
+            }
+            else if(!charMapping.containsKey(s.charAt(i) ) &&  usedStr.contains(t.charAt(i))){
+               return false;
+            }
+            else{
+                charMapping.put(s.charAt(i),t.charAt(i));
+                usedStr.add(t.charAt(i));
+            }
+
+        }
+        return true;
+    }
+
+
+    static public boolean wordPattern( String s,String pattern) {
+
+        /*
+        a-> cat
+        a-> ele
+        b->dog
+        c->dog
+         */
+        String[] words= pattern.split(" ");
+        if(words.length!=s.length()){
+            System.out.println("Here");
+            return false;
+        }
+        Map<Character,String> charWordMap = new HashMap<>();
+        Set<String> mappedWord = new HashSet<>();
+        for(int i =0;i<words.length;i++){
+            if(charWordMap.containsKey(s.charAt(i)) && !( charWordMap.get(s.charAt(i)).equals(words[i]))){
+                return false;
+            }
+            else if(!charWordMap.containsKey(s.charAt(i)) && mappedWord.contains(words[i]) ){
+                return false;
+            }
+            else{
+                charWordMap.put(s.charAt(i),words[i]);
+                mappedWord.add(words[i]);
+            }
+
+        }
+        return true;
+
+    }
 
 
 
 
 public static void main(String[] args) {
-      String input[][]= new String[][]{{"5","3",".",".","7",".",".",".","."}
-              ,{"6","5",".","1","9","5",".",".","."}
-              ,{".","9","8",".",".",".",".","6","."}
-              ,{"8",".",".",".","6",".",".",".","3"}
-              ,{"4",".",".","8",".","3",".",".","1"}
-              ,{"7",".",".",".","2",".",".",".","6"}
-              ,{".","6",".",".",".",".","2","8","."}
-              ,{".",".",".","4","1","9",".",".","5"}
-              ,{".",".",".",".","8",".",".","7","9"}};
-
-    System.out.println(isValidSudoku(input));
+    System.out.println(wordPattern("abba","dog cat cat dog"));
 
     }
 
