@@ -189,13 +189,6 @@
       <option name="presentableId" value="Default" />
       <updated>1559794755835</updated>
     </task>
-    <task id="LOCAL-00006" summary="&#10;Check">
-      <created>1704217257171</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1704217257171</updated>
-    </task>
     <task id="LOCAL-00007" summary="&#10;Check">
       <created>1707194665096</created>
       <option name="number" value="00007" />
@@ -532,7 +525,14 @@
       <option name="project" value="LOCAL" />
       <updated>1768721327750</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="sss">
+      <created>1768931059844</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1768931059844</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1078,32 +1078,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/TwoPointerNew.java</url>
-          <line>103</line>
+          <line>106</line>
           <option name="timeStamp" value="218" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/TwoPointerNew.java</url>
-          <line>120</line>
+          <line>123</line>
           <option name="timeStamp" value="219" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/TwoPointerNew.java</url>
-          <line>117</line>
+          <line>120</line>
           <option name="timeStamp" value="221" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/TwoPointerNew.java</url>
-          <line>167</line>
+          <line>170</line>
           <option name="timeStamp" value="224" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/TwoPointerNew.java</url>
-          <line>192</line>
+          <line>195</line>
           <option name="timeStamp" value="225" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/TwoPointerNew.java</url>
-          <line>198</line>
+          <line>201</line>
           <option name="timeStamp" value="226" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

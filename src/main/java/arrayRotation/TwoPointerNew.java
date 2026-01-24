@@ -1,6 +1,9 @@
 package arrayRotation;
 
+import com.sun.xml.internal.ws.addressing.WsaActionUtil;
+
 import java.util.*;
+import java.util.stream.Collectors;
 
 public class TwoPointerNew {
     static public int minSubArrayLen(int target, int[] nums) {
@@ -214,12 +217,83 @@ public class TwoPointerNew {
 
     }
 
+  static   public boolean containsNearbyDuplicate(int[] nums, int k) {
+
+        Map<Integer,Integer> map = new HashMap<>();
+        for(int i =0;i<nums.length;i++){
+            if(map.containsKey(nums[i]) && ( i -  map.get(nums[i]))<=k){
+                return true;
+            }
+            else {
+                map.put(nums[i],i);
+            }
+
+        }
+        return false;
+    }
+static   public boolean isAnagram(String s, String t) {
+
+
+        if(s.length()!=t.length()){
+            return false;
+        }
+        Map<Character,Integer> sCharMap = new HashMap<>();
+
+        for(Character ch : s.toCharArray()){
+            sCharMap.put(ch,sCharMap.getOrDefault(ch,0)+1);
+        }
+
+    Map<Character,Integer> tCharMap = new HashMap<>();
+    for(Character c : t.toCharArray()){
+        tCharMap.put(c,tCharMap.getOrDefault(c,0)+1);
+    }
 
 
 
-public static void main(String[] args) {
-    System.out.println(wordPattern("abba","dog cat cat dog"));
+    for(Map.Entry<Character,Integer> entry : tCharMap.entrySet()){
+        if(!sCharMap.containsKey(entry.getKey()) &&  entry.getValue().intValue()!=sCharMap.get(entry.getKey()).intValue()) {
+            return false;
+        }
+
+    }
+    return true;
 
     }
 
-}
+
+  static   public List<List<String>> groupAnagrams(String[] strs) {
+
+        Map<String,List<String>> groupMap = new HashMap<>();
+
+        for(String word:strs) {
+            groupMap.computeIfAbsent(getKey(word),k-> new ArrayList<>()).add(word);
+        }
+
+    return groupMap.values().stream().collect(Collectors.toList());
+
+    }
+
+
+   static String getKey(String word) {
+
+        short[] wordCount = new short[26];
+        for(char c : word.toCharArray()) {
+            ++wordCount[c-'a'];
+        }
+
+        StringBuilder key = new StringBuilder();
+        for (int i = 0; i < wordCount.length; i++) {
+            key.append(wordCount[i]);
+
+        }
+            return key.toString();
+    }
+
+public static void main(String[] args) {
+        String [] inp = new String[]{"bdddddddddd","bbbbbbbbbbc"};
+        System.out.println(groupAnagrams(inp));
+    }
+
+    }
+
+
