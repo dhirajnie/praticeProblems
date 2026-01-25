@@ -283,17 +283,91 @@ static   public boolean isAnagram(String s, String t) {
 
         StringBuilder key = new StringBuilder();
         for (int i = 0; i < wordCount.length; i++) {
-            key.append(wordCount[i]);
+            key.append(wordCount[i]+",");
 
         }
             return key.toString();
     }
 
-public static void main(String[] args) {
-        String [] inp = new String[]{"bdddddddddd","bbbbbbbbbbc"};
-        System.out.println(groupAnagrams(inp));
+    public int longestConsecutive(int[] nums) {
+
+
+return 0;
     }
 
+    public List<String> summaryRanges(int[] nums) {
+        List<String> result = new ArrayList<>();
+        int startNumber = nums[0];
+        int endNumber = nums[0];
+        for(int i =1;i<nums.length;i++){
+            if(endNumber+1==nums[i]){
+                ++endNumber;
+            }
+            else{
+                if(startNumber!=endNumber){
+                    result.add(startNumber+"->"+endNumber);
+                }
+                else{
+                    result.add(startNumber+"");
+                }
+                startNumber=endNumber=nums[i];
+            }
+        }
+        if(startNumber!=endNumber){
+            result.add(startNumber+"->"+endNumber);
+        }
+        else{
+            result.add(startNumber+"");
+        }
+        return result;
+    }
+
+
+
+static     public int[][] merge(int[][] intervals) {
+
+        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
+        int startInterval =intervals[0][0];
+        int endInterval  = intervals[0][1];
+        List<List<Integer>> result = new ArrayList<>();
+
+        for( int i =1;i<intervals.length;i++){
+                if(startInterval<= intervals[i][0] && intervals[i][0]<=endInterval){
+                  if(endInterval<intervals[i][1])
+                    endInterval=  intervals[i][1];
+                }
+                else{
+                    List<Integer> newInterval = new ArrayList<>();
+                    newInterval.add(startInterval);
+                    newInterval.add(endInterval);
+                    result.add(newInterval);
+                    startInterval= intervals[i][0];
+                    endInterval= intervals[i][1];
+                }
+        }
+
+    List<Integer> newInterval = new ArrayList<>();
+    newInterval.add(startInterval);
+    newInterval.add(endInterval);
+    result.add(newInterval);
+
+    int[][] finalResult  = new int[result.size()][2];
+
+    for(int i =0;i<result.size();i++){
+        finalResult[i][0]= result.get(i).get(0);
+        finalResult[i][1]= result.get(i).get(1);
+    }
+
+    System.out.println( result);
+    return finalResult;
+    }
+
+
+public static void main(String[] args) {
+        int[][] input = new int[][]{{1,3},{2,6},{5,20},{8,10},{15,18}};
+    System.out.println(merge(input));
+
+    }
     }
 
 
