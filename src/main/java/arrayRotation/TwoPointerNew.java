@@ -323,8 +323,40 @@ return 0;
     }
 
 
+    public int findMinArrowShots(int[][] points) {
 
-static     public int[][] merge(int[][] intervals) {
+        if(points==null || points.length==0){
+            return 0;
+        }
+        int result =1;
+        int overlapStart =points[0][0];
+        int overlapEnd = points[0][1];
+        for(int i =1;i<points.length;i++){
+            if(isOverlap(overlapStart,overlapEnd,points[i])){
+                overlapStart = Math.max(overlapStart,points[i][0]);
+                overlapEnd= Math.max(overlapEnd,points[i][1]);
+            }
+            else{
+                ++result;
+                overlapStart= points[i][0];
+                overlapEnd= points[i][1];
+            }
+
+    }
+        System.out.println(result);
+        return result;
+}
+
+    private boolean isOverlap(int overlapStart, int overlapEnd, int[] point) {
+
+        int oStart = Math.max(overlapStart,point[0]);
+        int oEnd = Math.max(overlapEnd,point[1]);
+        return oStart < oEnd;
+
+    }
+
+
+    static     public int[][] merge(int[][] intervals) {
 
         Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
         int startInterval =intervals[0][0];
