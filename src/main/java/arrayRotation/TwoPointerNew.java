@@ -356,48 +356,35 @@ return 0;
     }
 
 
-    static     public int[][] merge(int[][] intervals) {
+  static   public int[][] insert(int[][] intervals, int[] newInterval) {
+        List<int[]> result = new ArrayList<>();
+        int i = 0;
 
-        Arrays.sort(intervals, Comparator.comparingInt(a -> a[0]));
-        int startInterval =intervals[0][0];
-        int endInterval  = intervals[0][1];
-        List<List<Integer>> result = new ArrayList<>();
+        // Phase 1: Copy intervals BEFORE newInterval
+        while (i < intervals.length && intervals[i][1] < newInterval[0])
+            result.add(intervals[i++]);
 
-        for( int i =1;i<intervals.length;i++){
-                if(startInterval<= intervals[i][0] && intervals[i][0]<=endInterval){
-                  if(endInterval<intervals[i][1])
-                    endInterval=  intervals[i][1];
-                }
-                else{
-                    List<Integer> newInterval = new ArrayList<>();
-                    newInterval.add(startInterval);
-                    newInterval.add(endInterval);
-                    result.add(newInterval);
-                    startInterval= intervals[i][0];
-                    endInterval= intervals[i][1];
-                }
+        // Phase 2: Merge OVERLAPPING intervals
+        while (i < intervals.length && intervals[i][0] <= newInterval[1]) {
+            newInterval[0] = Math.min(newInterval[0], intervals[i][0]);
+            newInterval[1] = Math.max(newInterval[1], intervals[i][1]);
+            i++;
         }
+        result.add(newInterval);  // Add merged interval
 
-    List<Integer> newInterval = new ArrayList<>();
-    newInterval.add(startInterval);
-    newInterval.add(endInterval);
-    result.add(newInterval);
+        // Phase 3: Copy REMAINING intervals
+        while (i < intervals.length)
+            result.add(intervals[i++]);
 
-    int[][] finalResult  = new int[result.size()][2];
-
-    for(int i =0;i<result.size();i++){
-        finalResult[i][0]= result.get(i).get(0);
-        finalResult[i][1]= result.get(i).get(1);
-    }
-
-    System.out.println( result);
-    return finalResult;
+        return result.toArray(new int[result.size()][]);
     }
 
 
 public static void main(String[] args) {
-        int[][] input = new int[][]{{1,3},{2,6},{5,20},{8,10},{15,18}};
-    System.out.println(merge(input));
+        int[][] input = new int[][]{{1,2},{3,5},{6,7},{8,10},{12,16}};
+        input = new int[][]{{1,5}};
+        int []point = new int[]{0,3};
+    System.out.println(insert(input,point));
 
     }
     }

@@ -193,13 +193,6 @@
       <option name="presentableId" value="Default" />
       <updated>1559794755835</updated>
     </task>
-    <task id="LOCAL-00009" summary="&#10;Check">
-      <created>1716705919999</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1716705919999</updated>
-    </task>
     <task id="LOCAL-00010" summary="&#10;Java Bitset and BloomFilter">
       <created>1720841478267</created>
       <option name="number" value="00010" />
@@ -536,7 +529,14 @@
       <option name="project" value="LOCAL" />
       <updated>1769347847656</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="sss">
+      <created>1769404467000</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1769404467000</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1110,6 +1110,11 @@
           <line>201</line>
           <option name="timeStamp" value="226" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/arrayRotation/TwoPointerNew.java</url>
+          <line>359</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/parkingsystem/ParkingSpotAlgo.java</url>
           <line>12</line>
@@ -1137,6 +1142,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/myCode$JumpGame.ic" NAME="JumpGame Coverage Results" MODIFIED="1722705459926" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>thread.practice.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/myCode$TwoPointerNew.ic" NAME="TwoPointerNew Coverage Results" MODIFIED="1769407047571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>arrayRotation.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/myCode$TwoStackGame.ic" NAME="TwoStackGame Coverage Results" MODIFIED="1561891979064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>hackerrank.*</FILTER>
