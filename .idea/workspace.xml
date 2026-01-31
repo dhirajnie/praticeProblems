@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="sss">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LinkedList/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/StackCombined.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/practice/utils/Test123.class" afterDir="false" />
     </list>
@@ -106,9 +105,9 @@
       <recent name="thread.practice" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StackCombined">
-    <configuration name="CountSmaller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayRotation.CountSmaller" />
+  <component name="RunManager" selected="Application.Solution">
+    <configuration name="RandomizedSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="arrayRotation.RandomizedSet" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
@@ -120,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomizedSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayRotation.RandomizedSet" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkedList.Solution" />
       <module name="praticeProblems" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayRotation.*" />
+          <option name="PATTERN" value="LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.StackCombined" />
         <item itemvalue="Application.TwoPointerNew" />
         <item itemvalue="Application.TextJustify" />
         <item itemvalue="Application.RandomizedSet" />
-        <item itemvalue="Application.CountSmaller" />
       </list>
     </recent_temporary>
   </component>
@@ -187,13 +186,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559794755835</updated>
-    </task>
-    <task id="LOCAL-00011" summary="&#10;Java Bitset and BloomFilter">
-      <created>1720946570196</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1720946570196</updated>
     </task>
     <task id="LOCAL-00012" summary="&#10;Java Bitset and BloomFilter">
       <created>1721274119177</created>
@@ -531,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1769446262781</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="sss">
+      <created>1769662882767</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1769662882768</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1119,6 +1118,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/StackCombined.java</url>
           <line>7</line>
           <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LinkedList/Solution.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LinkedList/Solution.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LinkedList/Solution.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="238" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/parkingsystem/ParkingSpotAlgo.java</url>
