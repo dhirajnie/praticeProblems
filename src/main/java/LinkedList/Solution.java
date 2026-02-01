@@ -1,6 +1,7 @@
 package LinkedList;
 
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -35,6 +36,11 @@ class ListNode {
     ListNode(int x) {
         val = x;
         next = null;
+    }
+
+    @Override
+  public  String toString(){
+        return "["+this.val+"]";
     }
 }
 
@@ -141,11 +147,48 @@ public class Solution {
     }
 
 
+    static public List<ListNode> swap(ListNode head){
+        // tail and head
+
+        List<ListNode> result = new ArrayList<>();
+        result.add(head);
+        ListNode prev = null;
+        ListNode curr = head;
+        while(curr!=null){
+            ListNode nextTemp = curr.next;
+            curr.next=prev;
+            prev=curr;
+            curr=nextTemp;
+        }
+
+
+        result.add(prev);
+        return result;
+
+    }
+// static  public ListNode reverseBetween(ListNode head, int left, int right) {
+//
+//
+//
+//
+//    }
+
+
+
+
     public static void main(String[] args) {
-        Node node = new Node(1);
-        node.next = new Node(2);
-        node.next.next = new Node(3);
-        copyRandomList(node);
+        ListNode node = new ListNode(1);
+        node.next = new ListNode(2);
+        node.next.next = new ListNode(3);
+        node.next.next.next = new ListNode(4);
+      List<ListNode> tailHead =   swap(node);
+
+      ListNode newHead = tailHead.get(1);
+      while (newHead!=null){
+          System.out.println(newHead);
+          newHead= newHead.next;
+      }
+     //   System.out.println(tailHead);
     }
 
 
