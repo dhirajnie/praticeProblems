@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f368e7b4-553f-4036-b75d-ceac4f07facf" name="Default Changelist" comment="sss">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Tree/TreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/LinkedList/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LinkedList/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/utils/Test123.java" afterDir="false" />
@@ -186,13 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559794755835</updated>
-    </task>
-    <task id="LOCAL-00014" summary="&#10;Java Bitset and BloomFilter">
-      <created>1721559494207</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1721559494207</updated>
     </task>
     <task id="LOCAL-00015" summary="&#10;Java Bitset and BloomFilter">
       <created>1721841171403</created>
@@ -530,7 +524,14 @@
       <option name="project" value="LOCAL" />
       <updated>1769921631735</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="sss">
+      <created>1770264856122</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1770264856123</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1121,42 +1122,42 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/LinkedList/Solution.java</url>
-          <line>120</line>
+          <line>123</line>
           <option name="timeStamp" value="236" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/LinkedList/Solution.java</url>
-          <line>111</line>
+          <line>114</line>
           <option name="timeStamp" value="237" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/LinkedList/Solution.java</url>
-          <line>144</line>
+          <line>147</line>
           <option name="timeStamp" value="238" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/LinkedList/Solution.java</url>
-          <line>192</line>
+          <line>195</line>
           <option name="timeStamp" value="242" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/LinkedList/Solution.java</url>
-          <line>200</line>
+          <line>203</line>
           <option name="timeStamp" value="244" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/LinkedList/Solution.java</url>
-          <line>168</line>
+          <line>171</line>
           <option name="timeStamp" value="245" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/LinkedList/Solution.java</url>
-          <line>259</line>
+          <line>262</line>
           <option name="timeStamp" value="246" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/LinkedList/Solution.java</url>
-          <line>295</line>
+          <line>298</line>
           <option name="timeStamp" value="247" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

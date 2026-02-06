@@ -1,8 +1,11 @@
 package LinkedList;
 
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import jdk.nashorn.internal.ir.SplitReturn;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -314,22 +317,35 @@ return newHead;
 
 
 
-    public static void main(String[] args) {
-        ListNode head = new ListNode(6);
-         head.next = new ListNode(2);
-//        head.next.next = new ListNode(3);
-//        head.next.next.next = new ListNode(0);
-//        head.next.next.next.next = new ListNode(5);
-//        head.next.next.next.next.next = new ListNode(2);
+    public static void main(String[] args) throws JsonProcessingException {
+        Sample p = new Sample();
+        p.p=new BigDecimal(2121.3243432432);
+//        p.p = new String("NaN");
+        System.out.println(new ObjectMapper().writeValueAsString(p));
 
 
-
-        head = partition(head,4);
-        while (head!=null){
-            System.out.print(head.val+" -> ");
-            head=head.next;
-        }
+        String a = (String) p.p;
+        System.out.println(a);
     }
 
 
+
+
+
+}
+
+
+class Sample {
+    Object p;
+
+    public Sample() {
+    }
+
+    public Object getP() {
+        return p;
+    }
+
+    public void setP(Object p) {
+        this.p = p;
+    }
 }
