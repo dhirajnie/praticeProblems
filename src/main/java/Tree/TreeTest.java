@@ -19,17 +19,17 @@ class TreeNode {
 public class TreeTest {
 
 
-    public boolean checkSymetic (TreeNode left, TreeNode right){
+    public boolean checkSymetic (TreeNode left, TreeNode right) {
 
-        if(left==null && right==null)
+        if (left == null && right == null)
             return true;
-        if(left==null || right ==null)
+        if (left == null || right == null)
             return false;
-        if(left.val!=right.val){
+        if (left.val != right.val) {
             return false;
         }
-        return checkSymetic(left.left,right.right) && checkSymetic(left.right,right.left);
-
+        return checkSymetic(left.left, right.right) && checkSymetic(left.right, right.left)
+    }
     }
 
     public boolean isSymmetric(TreeNode root) {
