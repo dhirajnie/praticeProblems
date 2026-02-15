@@ -187,13 +187,6 @@
       <option name="presentableId" value="Default" />
       <updated>1559794755835</updated>
     </task>
-    <task id="LOCAL-00017" summary="&#10;Java Bitset and BloomFilter">
-      <created>1722013943166</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1722013943166</updated>
-    </task>
     <task id="LOCAL-00018" summary="&#10;Java Bitset and BloomFilter">
       <created>1722137546754</created>
       <option name="number" value="00018" />
@@ -530,7 +523,14 @@
       <option name="project" value="LOCAL" />
       <updated>1770872487095</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="sss">
+      <created>1771079711388</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1771079711388</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

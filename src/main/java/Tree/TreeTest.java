@@ -62,6 +62,8 @@ public class TreeTest {
         String text = new String(bytes, StandardCharsets.UTF_8);
         System.out.println(text);
 
+
+
 // Convert to Base62
 //        String shortCode = Base62.encode(Math.abs(value));
     }
